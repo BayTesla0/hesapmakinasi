@@ -1,0 +1,185 @@
+body.krem-tema {
+    background-color: #f5f5dc;
+}
+
+body.lacivert-tema {
+    background-color: #2a3d66;
+    color: white;
+}
+
+.hesap-makinesi {
+    width: 300px;
+    margin: 100px auto;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 1 10px rgba(0, 0, 0, 0.1);
+        background-color: #faf9f9;
+
+
+}
+
+body.lacivert-tema .hesap-makinesi  {
+    background-color: #555;
+
+}
+
+.ust-kisim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tema-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200%;
+
+}
+
+
+
+.dark-mode-icon {
+    margin-right: 010px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute ;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196f3;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #02111d;
+}
+
+input:checked + .slider:before {
+    transform: translateX(14px);
+}
+
+#gecmisTusu {
+    border: none;
+    border-radius: 100px;
+    padding: 50px 10px;
+    cursor: pointer;      
+      background-color: #faf9f9;
+
+}
+
+#gecmisTusu:hover {background-color:rgb(224, 224, 231);
+}
+
+
+body.lacivert-tema #gecmisTusu   {
+    background-color: #555;
+
+}
+
+
+.ekran {
+    background-color: #faf9f9;
+    padding: 50px;
+    border-radius: 00px;
+    margin-bottom: 00px;
+    text-align: right;
+    font-size: 2em;
+}
+
+body.lacivert-tema .ekran {
+    background-color: #555;
+}
+
+.son-islemler {
+    font-size: 0.5em;
+    color: #666;
+    text-align: right;
+    display: none;
+}
+
+body.lacivert-tema .son-islemler {
+    color: white;
+}
+
+.buton-kutucugu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: #7dceee;        background-image: url("kaynak/lightmod.jpg");
+
+    border-radius: 20px;
+    padding: 20px;
+}
+
+body.lacivert-tema .buton-kutucugu {
+    background-color: #002147;
+    background-image: url("");
+
+
+}
+
+.buton-kutucugu button {
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    border-radius: 50%;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+body.lacivert-tema .buton-kutucugu button {
+    background-color: #1c3b70;
+    color: white;
+}
+
+.buton-kutucugu .temizle {
+    background-color: #faf9f9;
+    color: rgb(0, 0, 0);
+}
+
+.buton-kutucugu .esittir {
+    background-color: #faf9f9;
+    color: rgb(0, 0, 0);
+}
+
+.buton-kutucugu button:hover {
+    background-color: #ddd;
+}
+
+body.lacivert-tema .buton-kutucugu button:hover {
+    background-color: #335b8e;
+}
+
+
